@@ -92,7 +92,7 @@ public class Calck { // Объявление класса Calck
                                         System.out.printf(" = %.1f", M); // Вывод результата с одним знаком после запятой
                                         System.out.println("\n");
                                     } else {
-                                        System.err.println("Деление на ноль не возможно!!!");
+                                        System.out.println("Деление на ноль не возможно!!");
                                     }
                                 } else {
                                     if (S2.contains("*")) { // Если есть операция умножения
